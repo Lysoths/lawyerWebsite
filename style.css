@@ -5,6 +5,9 @@
     list-style:none;
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+  }
 .navigation {
     display: flex;
     justify-content: center;
