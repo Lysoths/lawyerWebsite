@@ -1,0 +1,387 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.naviBox1 {
+    display:flex;
+    justify-content: flex-end;
+    text-align: center;
+    background-color:#F7F7F7;
+    color:#999999;
+    width: 100%;
+    
+}
+
+
+.workHour{
+    display:flex;
+    
+}
+.workHourContent {
+    display:flex;
+    padding: 0.75rem;
+    border-left:1px solid #999999;
+}
+.workHourContent:nth-child(3) {
+    border-right:1px solid #999999;
+}
+
+.mailOne {
+    color:#999999;
+}
+.workHourContent p {
+    padding-left:0.5rem;
+}
+.icon {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:1rem;
+    
+}
+.icon > i {
+    padding-left:0.5rem;
+    
+}
+.fa-linkedin {
+    padding-right: 2rem;
+}
+
+.naviBox2 {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:250px;
+    max-height: 180px; 
+    width:100%;
+    max-width: 1180px;
+    padding-bottom:50px;
+      
+   
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding:0 20px; */
+    width:100%;
+    
+}
+.phone1 {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding:25px 0;
+    /* background-color:red; */
+   
+
+}
+.box1 {
+    display: flex;
+}
+.phoneNumber1 {
+    border-right:1px solid #999999;
+    padding:0 2rem;
+}
+
+.phoneNumber > h4 {
+    color:#474747;
+}
+.phoneNumber > p {
+    color:#6e6e6e;
+    
+}
+
+.phoneNumber1 > h4 {
+    color:#656565;
+}
+.phoneNumber1 > p {
+    color:#656565;
+    
+}
+
+.phoneLogo > i {
+    font-size:2rem;
+    color:#DDDDDD;
+}
+.headPhoneLogo {
+    padding:0 1rem;
+}
+.headPhoneLogo > i {
+    font-size:2rem;
+    color:#DDDDDD;
+}
+
+
+.button {
+    margin-left:120px;
+}
+.button a {
+    background-color:#CAB48B;
+    border:1px solid white;
+    padding: 15px 25px;
+    border-radius:5px;
+}
+.button a  {
+    color:White;
+    font-weight: 900;
+}
+
+.button a:hover {
+    background-color:#9c8a67;
+}
+
+.menuBox {
+    width:100%;
+    max-width: 1000px;
+    height:70px;
+    background-color:#303032;
+    box-shadow: 0 0 0 1px rgb(205, 205, 205), 0 0 0 7px #303032;
+    z-index: 10;
+    position:relative;
+    transform:translateY(-40px);
+    margin: 0 auto;   
+
+}
+.menuSection{
+    height:0;
+  
+
+}
+.menuBox{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menuBox ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menuBox ul li {
+    padding:15px 55px; 
+}
+
+
+.menuBox ul a{
+    
+    color:White;
+    font-weight: 500;
+    font-size: 25px;;
+}
+
+.menuBox ul a:hover{
+    
+    color:#9c8a67;
+    
+}
+.menuSection a{
+    position:relative;
+}
+.menuSection .menuBox a:after {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-5px;
+    height:2px;  
+    width:0px; 
+    background:#9c8a67;
+    transition:.4s;
+}
+.menuSection .menuBox a:hover:after{
+    width: 100%;
+}
+
+ul li:nth-child(1) a {
+    color:#9c8a67 ;
+}
+.containerSection {
+    background-image: url(https://demo.proteusthemes.com/legalpress/wp-content/uploads/sites/26/2015/06/1-1920x600.jpg);
+    width:100%;
+    height:600px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   }
+
+   .sectionContent {
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       
+}
+.sectionContent h1 {
+    margin:2rem 0 ;
+    font-size:3rem;
+    color:white;
+    padding-bottom:3rem;
+    margin:0;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    
+}
+
+.sectionContent p {
+    color:white;
+    font-size:1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+
+}
+.sectionContent h2 {
+    color:#dcbd7d;
+    padding-bottom:3rem;
+    text-transform: uppercase;
+}
+.containerSection2 {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height: auto;
+    padding:50px 0;
+
+}
+.aboutus {
+    display:flex;
+    flex-direction: column;
+    width:350px; 
+    padding-bottom:2rem;
+    border-right:1px solid #6e6e6e;
+}
+.aboutus h2 {
+    padding-bottom:2rem;
+}
+.personInfo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:350px;
+    height:450px;
+    margin-left:9px;
+}
+.personImg {
+    overflow: hidden;
+}
+.personImg img {
+    width:100%;
+    transition:all .2s;
+    
+    
+}
+.personImg img:hover{
+    transform: scale(1.1);
+}
+.personInfoContent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.personInfoContent h2 {
+    padding:1rem 0 ;
+    color:#dcbd7d;
+}
+
+.servicesContainer {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    height:auto;
+    box-shadow: 0 0 0 1px rgb(205, 205, 205), 0 0 0 7px #303032;
+    padding-top:100px;
+    
+    
+
+}
+.servicesContainer .family {
+    width:200px;
+    height:300px;
+    /* background-color:red; */
+    margin:5px;
+    
+
+}
+.servicesContainer div img {
+    width:100%;
+    
+}
+.familyTopic h2 {
+    padding:0.5rem 0 ;
+    color:#45423D;
+}
+.familyTopic p {
+    color:#7f7f7f;
+}
+
+.lastContent {
+    margin-top:7px;
+    /* background-color:red; */
+    height:500px;
+}
+.contentMap {
+    width:auto;
+    height:10%;
+    /* background-color:blue; */
+    border:1px solid black;
+    border-radius:5px;
+}
+.googleMap {
+    width:100%;
+    
+}
+
+/*  Media Queries */
+
+@media only screen and (max-width: 1200px) {
+    .naviBox1 {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size:1rem;
+      
+    }
+    .button {
+        display:none;
+    }
+    .menuBox {
+        display:none;
+    }
+    .sectionContent h1 {
+        font-size:1rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .workHour {
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+    }
+    .logo  {
+        display:none;
+    }
+    .naviBox2 {
+        flex-direction: column;
+        
+    }
+  }
